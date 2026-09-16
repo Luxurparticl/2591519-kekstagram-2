@@ -1,5 +1,7 @@
 const getStringLength = (string, maxLength) => string.length <= maxLength;
 
+getStringLength();
+
 const getPalindrom = function (string) {
   const normaliseString = string.replaceAll(' ', '').toUpperCase();
   let palindromString = '';
@@ -9,6 +11,8 @@ const getPalindrom = function (string) {
   }
   return palindromString === normaliseString;
 };
+
+getPalindrom();
 
 const getNumber = function (string) {
   let result = '';
@@ -22,4 +26,4 @@ const getNumber = function (string) {
   return result === '' ? NaN : Number(result);
 };
 
-
+getNumber();
