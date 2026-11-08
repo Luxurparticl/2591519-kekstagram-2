@@ -1,5 +1,4 @@
-import './data.js';
-import {photos} from './data.js';
+import './createMiniatures.js';
 
 // const names = ['Артём', 'Никита', 'Анна', 'Кирилл','Влад','Глеб', 'Мария', 'Александр', 'Дима'];
 
@@ -72,6 +71,6 @@ import {photos} from './data.js';
 
 // const photos = Array.from({length: MAX_ID}, () => createPhotoDescription());
 
-photos();
+// photos();
 
 // console.log(photos());
